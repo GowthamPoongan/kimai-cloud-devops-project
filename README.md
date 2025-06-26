@@ -6,13 +6,14 @@ This project demonstrates the **end-to-end cloud migration** of the [Kimai](http
 
 ## 📌 Table of Contents
 
-- [Project Overview](#project-overview)
-- [Tech Stack](#tech-stack)
-- [Architecture](#architecture)
-- [Phase-wise Breakdown](#phase-wise-breakdown)
-- [Monitoring & Alerting](#monitoring--alerting)
-- [Security Measures](#security-measures)
-- [Cost Optimization](#cost-optimization)
+- [Project Overview](#-project-overview)
+- [Tech Stack](#-tech-stack)
+- [Architecture](#-architecture)
+- [Phase-wise Breakdown](#-phase-wise-breakdown)
+- [Monitoring & Alerting](#-monitoring--alerting)
+- [Security Measures](#-security-measures)
+- [Cost Optimization](#-cost-optimization)
+
 
 ---
 
