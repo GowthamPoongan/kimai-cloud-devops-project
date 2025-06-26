@@ -1,0 +1,29 @@
+version: '3.4'
+
+services:
+  kimai:
+    image: kimai/kimai2:apache
+    ports:
+      - "8001:8001"
+    volumes:
+      - kimai:/opt/kimai
+    environment:
+      - ADMINMAIL=admin@example.com
+      - ADMINPASS=changeme
+      - DATABASE_URL=mysql://kimai:kimai@mysql/kimai
+    restart: always
+
+  mysql:
+    image: mariadb
+    environment:
+      - MYSQL_DATABASE=kimai
+      - MYSQL_USER=kimai
+      - MYSQL_PASSWORD=kimai
+      - MYSQL_ROOT_PASSWORD=root
+    restart: always
+    volumes:
+      - mysql:/var/lib/mysql
+
+volumes:
+  kimai:
+  mysql:
